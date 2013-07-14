@@ -206,3 +206,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	$(PROPRIETARY_DIR)/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+	$(PROPRIETARY_DIR)/lib/libnv.so:obj/lib/libnv.so \
