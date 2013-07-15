@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	$(PROPRIETARY_DIR)/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	$(PROPRIETARY_DIR)/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+	$(PROPRIETARY_DIR)/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
 	$(PROPRIETARY_DIR)/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
 	$(PROPRIETARY_DIR)/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	$(PROPRIETARY_DIR)/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -124,7 +125,7 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libdsprofile.so:system/lib/libdsprofile.so \
 	$(PROPRIETARY_DIR)/lib/libdss.so:system/lib/libdss.so \
 	$(PROPRIETARY_DIR)/lib/libdsutils.so:system/lib/libdsutils.so \
-	$(PROPRIETARY_DIR)/lib/libgemini.so:system/lib/libgeminiso \
+	$(PROPRIETARY_DIR)/lib/libgemini.so:system/lib/libgemini.so \
 	$(PROPRIETARY_DIR)/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	$(PROPRIETARY_DIR)/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
 	$(PROPRIETARY_DIR)/lib/libgsl.so:system/lib/libgsl.so \
@@ -166,7 +167,6 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-	$(PROPRIETARY_DIR)/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	$(PROPRIETARY_DIR)/lib/liboncrpc.so:system/lib/liboncrpc.so \
