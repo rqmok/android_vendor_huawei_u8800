@@ -171,7 +171,6 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	$(PROPRIETARY_DIR)/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	$(PROPRIETARY_DIR)/lib/libOpenVG.so:system/lib/libOpenVG.so \
-	$(PROPRIETARY_DIR)/lib/liboverlay.so:system/lib/liboverlay.so \
 	$(PROPRIETARY_DIR)/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	$(PROPRIETARY_DIR)/lib/libqdi.so:system/lib/libqdi.so \
 	$(PROPRIETARY_DIR)/lib/libqdp.so:system/lib/libqdp.so \
