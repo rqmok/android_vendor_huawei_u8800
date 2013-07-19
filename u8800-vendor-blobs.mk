@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/etc/media_profiles.xml:system/etc/media_profiles.xml \
 	$(PROPRIETARY_DIR)/etc/vold.fstab:system/etc/vold.fstab \
 	$(PROPRIETARY_DIR)/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
+	$(PROPRIETARY_DIR)/etc/gps.conf:system/etc/gps.conf \
 
 # lib
 PRODUCT_COPY_FILES += \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+	$(PROPRIETARY_DIR)/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	$(PROPRIETARY_DIR)/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	$(PROPRIETARY_DIR)/lib/libOpenVG.so:system/lib/libOpenVG.so \
