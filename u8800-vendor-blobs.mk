@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/bin/compassd:system/bin/compassd \
 	$(PROPRIETARY_DIR)/bin/akmd8962:system/bin/akmd8962 \
 	$(PROPRIETARY_DIR)/bin/akmd8975:system/bin/akmd8975 \
+	$(PROPRIETARY_DIR)/bin/fmconfig:system/bin/fmconfig \
+	$(PROPRIETARY_DIR)/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 
 # etc
 PRODUCT_COPY_FILES += \
