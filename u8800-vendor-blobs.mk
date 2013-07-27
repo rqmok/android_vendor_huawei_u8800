@@ -129,17 +129,12 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libdss.so:system/lib/libdss.so \
 	$(PROPRIETARY_DIR)/lib/libdsutils.so:system/lib/libdsutils.so \
 	$(PROPRIETARY_DIR)/lib/libgemini.so:system/lib/libgemini.so \
-	$(PROPRIETARY_DIR)/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	$(PROPRIETARY_DIR)/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
 	$(PROPRIETARY_DIR)/lib/libgsl.so:system/lib/libgsl.so \
 	$(PROPRIETARY_DIR)/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
 	$(PROPRIETARY_DIR)/lib/libhwnv.so:system/lib/libhwnv.so \
 	$(PROPRIETARY_DIR)/lib/libhwrpc.so:system/lib/libhwrpc.so \
 	$(PROPRIETARY_DIR)/lib/libidl.so:system/lib/libidl.so \
-	$(PROPRIETARY_DIR)/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-	$(PROPRIETARY_DIR)/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-	$(PROPRIETARY_DIR)/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	$(PROPRIETARY_DIR)/lib/libloc_ext.so:system/lib/libloc_ext.so \
 	$(PROPRIETARY_DIR)/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
 	$(PROPRIETARY_DIR)/lib/libmmipl.so:system/lib/libmmipl.so \
 	$(PROPRIETARY_DIR)/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
