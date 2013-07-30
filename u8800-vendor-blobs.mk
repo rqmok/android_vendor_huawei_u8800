@@ -159,7 +159,6 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-	$(PROPRIETARY_DIR)/lib/libOmxCore.so:system/lib/libOmxCore.so \
 	$(PROPRIETARY_DIR)/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \

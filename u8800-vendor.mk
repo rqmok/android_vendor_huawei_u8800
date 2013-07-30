@@ -20,4 +20,3 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/huawei/u8800/overlay
 
 $(call inherit-product, vendor/huawei/u8800/u8800-vendor-blobs.mk)
-$(call inherit-product-if-exists, vendor/huawei/u8800/u8800-external-blobs.mk)
