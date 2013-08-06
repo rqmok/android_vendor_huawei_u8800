@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	$(PROPRIETARY_DIR)/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+	$(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	$(PROPRIETARY_DIR)/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	$(PROPRIETARY_DIR)/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	$(PROPRIETARY_DIR)/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
@@ -159,20 +160,22 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+	$(PROPRIETARY_DIR)/lib/libOmxCore.so:system/lib/libOmxCore.so \
 	$(PROPRIETARY_DIR)/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-	$(PROPRIETARY_DIR)/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+	$(PROPRIETARY_DIR)/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 	$(PROPRIETARY_DIR)/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	$(PROPRIETARY_DIR)/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	$(PROPRIETARY_DIR)/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	$(PROPRIETARY_DIR)/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	$(PROPRIETARY_DIR)/lib/libqdi.so:system/lib/libqdi.so \
 	$(PROPRIETARY_DIR)/lib/libqdp.so:system/lib/libqdp.so \
+	$(PROPRIETARY_DIR)/lib/libqdutils.so:system/lib/libqdutils.so \
 	$(PROPRIETARY_DIR)/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	$(PROPRIETARY_DIR)/lib/libqmi.so:system/lib/libqmi.so \
 	$(PROPRIETARY_DIR)/lib/libqmiservices.so:system/lib/libqmiservices.so \
@@ -182,6 +185,7 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_DIR)/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	$(PROPRIETARY_DIR)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	$(PROPRIETARY_DIR)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	$(PROPRIETARY_DIR)/lib/librpc.so:system/lib/librpc.so \
 	$(PROPRIETARY_DIR)/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	$(PROPRIETARY_DIR)/lib/libSEC_OMX_Core.aries.so:system/lib/libSEC_OMX_Core.aries.so \
 	$(PROPRIETARY_DIR)/lib/libuim.so:system/lib/libuim.so \
